@@ -1,4 +1,4 @@
-# volatility-based-architecture
+# right-software
 
 A planning skill for coding agents. It guides architecture planning with the IDesign Method (Juval Löwy). Extract core use cases. Assess the two axes of volatility. Decompose volatility into components. Apply the communication rules. Validate with call chains. Produce an architecture plan document.
 

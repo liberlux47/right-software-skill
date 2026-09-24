@@ -1,5 +1,5 @@
 ---
-name: volatility-based-architecture
+name: right-software
 description: "Plan a software system's architecture by decomposing on volatility, per Juval Löwy's IDesign Method. Use when the task is architecture planning. The workflow extracts core use cases, assesses the two axes of volatility, maps volatility to components, and validates with call chains. Output is an architecture plan document. Not for implementation work. Does not prescribe a technology stack."
 license: MIT
 compatibility: "Agent Skills spec (agentskills.io). Loads in any compliant coding agent"

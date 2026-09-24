@@ -1,6 +1,6 @@
 # Canonical IDesign Design Rules — Catalog and Verification
 
-This is the rule catalog for the volatility-based-architecture skill. Each rule states the canonical definition, its source, and its confidence. The verification table at the end distinguishes canonical rules from teaching variants and from rules that could not be verified in accessible primary sources.
+This is the rule catalog for the right-software skill. Each rule states the canonical definition, its source, and its confidence. The verification table at the end distinguishes canonical rules from teaching variants and from rules that could not be verified in accessible primary sources.
 
 The skill teaches verified substance. Where a rule name is not found in primary sources, the skill teaches the substance and flags the name as unverified. Never present unverified names as canonical.
 

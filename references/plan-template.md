@@ -1,6 +1,6 @@
 # Architecture Plan Document — Template
 
-This is the output contract for the volatility-based-architecture skill. Produce the plan document with these sections in this order. Fill every section. Where information is missing, ask the user or record the assumption in Open Risks.
+This is the output contract for the right-software skill. Produce the plan document with these sections in this order. Fill every section. Where information is missing, ask the user or record the assumption in Open Risks.
 
 ## Diagram Conventions
 

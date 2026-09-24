@@ -4,7 +4,7 @@ This skill implements the Agent Skills open specification (agentskills.io). Any 
 
 ## The single source of truth
 
-The skill directory is `volatility-based-architecture`. It contains `SKILL.md` and a `references/` directory.
+The skill directory is `right-software`. It contains `SKILL.md` and a `references/` directory.
 
 Installation means placing this directory in the agent's configured skills location. Copy it, or link it with a junction or symlink. The rest of this document names the locations per agent.
 
@@ -36,13 +36,13 @@ Place a copy in the path the agent documents. Check the agent's own documentatio
 Personal scope. Use a junction (matches the verified local precedent, no elevation needed):
 
 ```powershell
-New-Item -ItemType Junction -Path "$HOME\.claude\skills\volatility-based-architecture" -Target "$HOME\.agents\skills\volatility-based-architecture"
+New-Item -ItemType Junction -Path "$HOME\.claude\skills\right-software" -Target "$HOME\.agents\skills\right-software"
 ```
 
 Fallback: copy the directory.
 
 ```powershell
-Copy-Item -Recurse "$HOME\.agents\skills\volatility-based-architecture" "$HOME\.claude\skills\volatility-based-architecture"
+Copy-Item -Recurse "$HOME\.agents\skills\right-software" "$HOME\.claude\skills\right-software"
 ```
 
 Project scope: place the directory in `.claude/skills/` inside the repository.
@@ -67,7 +67,7 @@ Alternatives:
 - Personal: `~/.pi/agent/skills/<name>/SKILL.md`
 - Project: `.pi/skills/<name>/SKILL.md`
 
-Invoke the skill with `/skill:volatility-based-architecture`.
+Invoke the skill with `/skill:right-software`.
 
 ## Any other agent
 
@@ -83,7 +83,7 @@ Invoke the skill with `/skill:volatility-based-architecture`.
 3. Run the STE linter if available:
 
 ```bash
-python ~/.agents/skills/asd-ste100/scripts/ste-lint.py ~/.agents/skills/volatility-based-architecture/SKILL.md
+python ~/.agents/skills/asd-ste100/scripts/ste-lint.py ~/.agents/skills/right-software/SKILL.md
 ```
 
 4. Restart opencode after installation. Other agents may also cache configuration at startup.
