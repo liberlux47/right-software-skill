@@ -16,7 +16,7 @@ One copy works in any compliant agent because:
 - No vendor-specific frontmatter fields.
 - No vendor-specific body syntax. No dynamic-context injection. No `$ARGUMENTS` substitutions.
 - All asset references are relative.
-- `SKILL.md` is under 500 lines.v
+- `SKILL.md` is under 500 lines.
 
 ## Universal discovery paths
 
